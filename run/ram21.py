@@ -30,7 +30,7 @@ from pathlib import Path
 
 # Ramulator 2.1's Python package + its 3.10-built nanobind extension.
 # Default: the vendored submodule (ramulator2/, built in place). Override with
-# RAMULATOR_PYTHON to point at an external build (e.g. /home/ramulator2/python).
+# RAMULATOR_PYTHON to point at an external Ramulator build's python/ dir.
 import os  # noqa: E402
 RAMULATOR_PYTHON = os.environ.get(
     "RAMULATOR_PYTHON",
