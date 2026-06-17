@@ -1,0 +1,23 @@
+kv_decode_mm_ops=1344 kv_bytes=4227858432 kv_seconds=1.235253004
+kv_demand_GBps=3.422666
+tok=0 n_kv=1536 bytes=201326592 sec=0.058821800 demand_GBps=3.422653
+tok=1 n_kv=1536 bytes=201326592 sec=0.057831552 demand_GBps=3.481259
+tok=2 n_kv=1536 bytes=201326592 sec=0.058121507 demand_GBps=3.463891
+tok=3 n_kv=1536 bytes=201326592 sec=0.060763104 demand_GBps=3.313303
+tok=4 n_kv=1536 bytes=201326592 sec=0.059106802 demand_GBps=3.406149
+tok=5 n_kv=1536 bytes=201326592 sec=0.058437322 demand_GBps=3.445171
+tok=6 n_kv=1536 bytes=201326592 sec=0.058895037 demand_GBps=3.418397
+tok=7 n_kv=1536 bytes=201326592 sec=0.058532224 demand_GBps=3.439586
+tok=8 n_kv=1536 bytes=201326592 sec=0.058690974 demand_GBps=3.430282
+tok=9 n_kv=1536 bytes=201326592 sec=0.059576111 demand_GBps=3.379317
+tok=10 n_kv=1536 bytes=201326592 sec=0.058991312 demand_GBps=3.412818
+tok=11 n_kv=1536 bytes=201326592 sec=0.059105929 demand_GBps=3.406200
+tok=12 n_kv=1536 bytes=201326592 sec=0.058307816 demand_GBps=3.452823
+tok=13 n_kv=1536 bytes=201326592 sec=0.058702120 demand_GBps=3.429631
+tok=14 n_kv=1536 bytes=201326592 sec=0.058296133 demand_GBps=3.453515
+tok=15 n_kv=1536 bytes=201326592 sec=0.058730752 demand_GBps=3.427959
+tok=16 n_kv=1536 bytes=201326592 sec=0.059227054 demand_GBps=3.399234
+tok=17 n_kv=1536 bytes=201326592 sec=0.059842000 demand_GBps=3.364303
+tok=18 n_kv=1536 bytes=201326592 sec=0.057796039 demand_GBps=3.483398
+tok=19 n_kv=1536 bytes=201326592 sec=0.058360299 demand_GBps=3.449718
+tok=20 n_kv=1536 bytes=201326592 sec=0.059117117 demand_GBps=3.405555

@@ -1,0 +1,8 @@
+[submodule "llama.cpp"]
+	path = llama.cpp
+	url = https://github.com/Park-Joonyoung/llama.cpp.git
+	branch = kv-demand-perf
+[submodule "ramulator2"]
+	path = ramulator2
+	url = https://github.com/Park-Joonyoung/ramulator2.git
+	branch = v2.1-kvstudy

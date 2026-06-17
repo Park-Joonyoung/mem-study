@@ -1,0 +1,64 @@
+Frontend:
+  impl: SimpleO3
+  cycles_recorded_core_0: 131288664
+  cycles_recorded_core_1: 131366434
+  cycles_recorded_core_2: 131433477
+  cycles_recorded_core_3: 131502536
+  cycles_recorded_core_4: 131562917
+  cycles_recorded_core_5: 131698248
+  cycles_recorded_core_6: 131605453
+  cycles_recorded_core_7: 131788541
+  llc_eviction: 9005589
+  llc_mshr_unavailable: 53392
+  llc_read_access: 9336233
+  llc_read_misses: 9321125
+  llc_write_access: 18432
+  llc_write_misses: 18432
+  memory_access_cycles_recorded_core_0: 29545349
+  memory_access_cycles_recorded_core_1: 29571388
+  memory_access_cycles_recorded_core_2: 29599539
+  memory_access_cycles_recorded_core_3: 29624212
+  memory_access_cycles_recorded_core_4: 29647558
+  memory_access_cycles_recorded_core_5: 29699370
+  memory_access_cycles_recorded_core_6: 29662831
+  memory_access_cycles_recorded_core_7: 29731845
+  num_expected_insts: 149090304
+
+MemorySystem:
+  impl: GenericDRAM
+  total_num_read_requests: 9267730
+  total_num_write_requests: 17672
+  memory_system_cycles: 49420703
+
+  Controller:
+    avg_read_latency_0: 26.150204
+    cycles_0: 49420703
+    num_maintenance_reqs_0: 10554
+    num_maintenance_reqs_served_0: 10554
+    num_read_reqs_0: 9267730
+    num_read_reqs_forwarded_0: 3
+    num_read_reqs_served_0: 9267727
+    num_write_reqs_0: 17672
+    num_write_reqs_coalesced_0: 0
+    num_write_reqs_served_0: 17672
+    priority_queue_len_0: 311936
+    priority_queue_len_avg_0: 0.006312
+    queue_len_0: 77867816
+    queue_len_avg_0: 1.575611
+    read_latency_0: 242352946
+    read_queue_len_0: 52028719
+    read_queue_len_avg_0: 1.052772
+    read_row_conflicts_0: 149860
+    read_row_hits_0: 9004457
+    read_row_misses_0: 113410
+    read_throughput_MBps_0: 14407.853516
+    row_conflicts_0: 166467
+    row_hits_0: 9005236
+    row_misses_0: 113696
+    total_throughput_MBps_0: 14435.327148
+    write_queue_len_0: 25527161
+    write_queue_len_avg_0: 0.516528
+    write_row_conflicts_0: 16607
+    write_row_hits_0: 779
+    write_row_misses_0: 286
+    write_throughput_MBps_0: 27.473358

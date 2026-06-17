@@ -1,0 +1,52 @@
+Frontend:
+  impl: SimpleO3
+  cycles_recorded_core_0: 126443466
+  cycles_recorded_core_1: 126470717
+  llc_eviction: 2246756
+  llc_mshr_unavailable: 90143
+  llc_read_access: 2406379
+  llc_read_misses: 2402435
+  llc_write_access: 4608
+  llc_write_misses: 4608
+  memory_access_cycles_recorded_core_0: 27768150
+  memory_access_cycles_recorded_core_1: 27766876
+  num_expected_insts: 149090304
+
+MemorySystem:
+  impl: GenericDRAM
+  total_num_read_requests: 2312290
+  total_num_write_requests: 4400
+  memory_system_cycles: 47426519
+
+  Controller:
+    avg_read_latency_0: 24.434801
+    cycles_0: 47426519
+    num_maintenance_reqs_0: 10128
+    num_maintenance_reqs_served_0: 10128
+    num_read_reqs_0: 2312290
+    num_read_reqs_forwarded_0: 0
+    num_read_reqs_served_0: 2312290
+    num_write_reqs_0: 4400
+    num_write_reqs_coalesced_0: 0
+    num_write_reqs_served_0: 4400
+    priority_queue_len_0: 262169
+    priority_queue_len_avg_0: 0.005528
+    queue_len_0: 12703946
+    queue_len_avg_0: 0.267866
+    read_latency_0: 56500347
+    read_queue_len_0: 9052524
+    read_queue_len_avg_0: 0.190875
+    read_row_conflicts_0: 28037
+    read_row_hits_0: 2237805
+    read_row_misses_0: 46448
+    read_throughput_MBps_0: 3745.898193
+    row_conflicts_0: 32174
+    row_hits_0: 2238068
+    row_misses_0: 46448
+    total_throughput_MBps_0: 3753.026123
+    write_queue_len_0: 3389253
+    write_queue_len_avg_0: 0.071463
+    write_row_conflicts_0: 4137
+    write_row_hits_0: 263
+    write_row_misses_0: 0
+    write_throughput_MBps_0: 7.127978

@@ -1,0 +1,66 @@
+Frontend:
+  impl: SimpleO3
+  cycles_recorded_core_0: 129204435
+  cycles_recorded_core_1: 129539323
+  cycles_recorded_core_2: 129163907
+  cycles_recorded_core_3: 129318361
+  cycles_recorded_core_4: 129744969
+  cycles_recorded_core_5: 130636526
+  cycles_recorded_core_6: 129191851
+  cycles_recorded_core_7: 129476318
+  cycles_recorded_core_8: 130063454
+  llc_eviction: 10196650
+  llc_mshr_unavailable: 75266
+  llc_read_access: 42040495
+  llc_read_misses: 10566828
+  llc_write_access: 20736
+  llc_write_misses: 20736
+  memory_access_cycles_recorded_core_0: 32693198
+  memory_access_cycles_recorded_core_1: 32827144
+  memory_access_cycles_recorded_core_2: 32682225
+  memory_access_cycles_recorded_core_3: 32740653
+  memory_access_cycles_recorded_core_4: 32909365
+  memory_access_cycles_recorded_core_5: 33240686
+  memory_access_cycles_recorded_core_6: 32694379
+  memory_access_cycles_recorded_core_7: 32791511
+  memory_access_cycles_recorded_core_8: 33022828
+  num_expected_insts: 152557363
+
+MemorySystem:
+  impl: GenericDRAM
+  total_num_read_requests: 10491557
+  total_num_write_requests: 20092
+  memory_system_cycles: 48988697
+
+  Controller:
+    avg_read_latency_0: 94.463272
+    cycles_0: 48988697
+    num_maintenance_reqs_0: 10462
+    num_maintenance_reqs_served_0: 10462
+    num_read_reqs_0: 10491557
+    num_read_reqs_forwarded_0: 520
+    num_read_reqs_served_0: 10491027
+    num_write_reqs_0: 20092
+    num_write_reqs_coalesced_0: 0
+    num_write_reqs_served_0: 20090
+    priority_queue_len_0: 340511
+    priority_queue_len_avg_0: 0.006951
+    queue_len_0: 1208438124
+    queue_len_avg_0: 24.667694
+    read_latency_0: 991016742
+    read_queue_len_0: 757817871
+    read_queue_len_avg_0: 15.469239
+    read_row_conflicts_0: 457966
+    read_row_hits_0: 9884315
+    read_row_misses_0: 148746
+    read_throughput_MBps_0: 16453.455078
+    row_conflicts_0: 463168
+    row_hits_0: 9897216
+    row_misses_0: 150733
+    total_throughput_MBps_0: 16484.962891
+    write_queue_len_0: 450279742
+    write_queue_len_avg_0: 9.191503
+    write_row_conflicts_0: 5202
+    write_row_hits_0: 12901
+    write_row_misses_0: 1987
+    write_throughput_MBps_0: 31.507868

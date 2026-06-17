@@ -1,0 +1,62 @@
+Frontend:
+  impl: SimpleO3
+  cycles_recorded_core_0: 114184712
+  cycles_recorded_core_1: 114304710
+  cycles_recorded_core_2: 114775598
+  cycles_recorded_core_3: 117439728
+  cycles_recorded_core_4: 115817720
+  cycles_recorded_core_5: 115925398
+  cycles_recorded_core_6: 116230019
+  llc_eviction: 8175315
+  llc_mshr_unavailable: 300343
+  llc_read_access: 33390331
+  llc_read_misses: 8705034
+  llc_write_access: 269280
+  llc_write_misses: 269280
+  memory_access_cycles_recorded_core_0: 26808210
+  memory_access_cycles_recorded_core_1: 26856940
+  memory_access_cycles_recorded_core_2: 27028194
+  memory_access_cycles_recorded_core_3: 28036779
+  memory_access_cycles_recorded_core_4: 27422269
+  memory_access_cycles_recorded_core_5: 27466571
+  memory_access_cycles_recorded_core_6: 27572867
+  num_expected_insts: 152364748
+
+MemorySystem:
+  impl: GenericDRAM
+  total_num_read_requests: 8404687
+  total_num_write_requests: 264841
+  memory_system_cycles: 44039898
+
+  Controller:
+    avg_read_latency_0: 78.964043
+    cycles_0: 44039898
+    num_maintenance_reqs_0: 9406
+    num_maintenance_reqs_served_0: 9406
+    num_read_reqs_0: 8404687
+    num_read_reqs_forwarded_0: 378
+    num_read_reqs_served_0: 8404298
+    num_write_reqs_0: 264841
+    num_write_reqs_coalesced_0: 0
+    num_write_reqs_served_0: 264840
+    priority_queue_len_0: 305841
+    priority_queue_len_avg_0: 0.006945
+    queue_len_0: 812892802
+    queue_len_avg_0: 18.458099
+    read_latency_0: 663637390
+    read_queue_len_0: 479424899
+    read_queue_len_avg_0: 10.886149
+    read_row_conflicts_0: 366248
+    read_row_hits_0: 7889964
+    read_row_misses_0: 148088
+    read_throughput_MBps_0: 14661.895508
+    row_conflicts_0: 412969
+    row_hits_0: 8099065
+    row_misses_0: 157106
+    total_throughput_MBps_0: 15123.927734
+    write_queue_len_0: 333162062
+    write_queue_len_avg_0: 7.565005
+    write_row_conflicts_0: 46721
+    write_row_hits_0: 209101
+    write_row_misses_0: 9018
+    write_throughput_MBps_0: 462.032227
